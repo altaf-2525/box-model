@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+body {
+  background-color: burlywood;
+}
+.container {
+  background-color: bisque;
+  border: 3px solid royalblue;
+  /* padding: 10px; all four sides */
+  /* padding: 10px 20px; top/bottom left/right */
+  padding: 2px 20px 40px 20px; /* clockwise*/
+  /* padding-top: ;
+    padding-bottom: ;
+    padding-left: ;
+    padding-right: ; */
+  /* same goes for margin that we learn for padding: ; */
+  margin: 50px 150px 40px 150px;
+  border-radius: 23px;
+  /* align-content: center;
+    align-items: center; */
+  text-align: center;
+  /* width: fit-content; */
+}
+p {
+  padding-top: 0;
+  margin: 10px;
+}
